@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MSJHS AP Study Guides</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="subHeader2">
+         <nav>
+             <a href="/"><img src="images/logo2.png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="/">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                 </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()""></i>
+         </nav>
+         <h1>Study Guides</h1>
+    </section>
+
+    <!-----Study Guides----->
+
+    <section class="studyGuides">
+        <div class="row">
+            <div class="list">
+                <h1>Links to the Study Guides on Google Docs<i> - Still a Work in Progress :)</i></h1>
+                <p></p>
+                <a href="https://docs.google.com/document/d/1kjX0pmcjXH5LnUP8NJ2I4bRn6GCqF-1y84kPYakLJTI/edit?usp=sharing" target="_blank">•<strong>UNIT 1 AP Chem Study Guide</strong> - Atomic Structure and Periodic Trends</a><br><br>
+                <a href="https://docs.google.com/document/d/1Cgmnd3JEN7u_jP3wuuT0mrpxIaL2WCvbcjWh0xLi_YA/edit?usp=sharing" target="_blank">•<strong>UNIT 2 AP Chem Study Guide</strong> - Bonding and Molecular Geometry</a><br><br>
+                <a href="https://docs.google.com/document/d/1crEmkUnn_iBr-c_mvmwJfV-0tf8c9LyGxxfz8CY_X_Y/edit?usp=sharing" target="_blank">•<strong>UNIT 3 AP Chem Study Guide</strong> - IMFs, Gas Laws, and Solubility</a><br><br>
+                <a href="https://docs.google.com/document/d/1w99-VOHUKzDhWaq2j50amhYS5qenFFq32rW3ElPETb4/edit?usp=sharing" target="_blank">•<strong>UNIT 4 AP Chem Study Guide</strong> - Chemical Reactions</a><br><br>
+                <a href="https://docs.google.com/document/d/1GTrBAYmEeNYRWxlU7dzuij0StW5ukhwDFvnAKZdf0oY/edit?usp=sharing" target="_blank">•<strong>UNIT 5 AP Chem Study Guide</strong> - Kinetics</a><br><br>
+            </div>
+        </div>
+        <div class="chart1">
+            <img src="images/Screenshot (1331).png">
+        </div>
+        </section>
+
+ <!-----Java stuff for menu toggling thing----->
+ <script>
+
+    var navLink = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

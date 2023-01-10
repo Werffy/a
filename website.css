@@ -1,0 +1,255 @@
+*{
+margin:0;
+padding: 0;
+font-family: 'Oswald', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 252, 109, 0.7),rgba(0, 13, 60, 0.7)),url(images/429874.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+  width: 300px;  
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+   list-style: none; 
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+}
+.nav-links ul li a{
+   color:white;
+   text-decoration: none; 
+   font-size: 13px;    
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 24px;
+    color: white;
+}
+.amogus{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.amogus:hover{
+    border: 3px solid rgb(51, 245, 109);
+    background: rgb(51, 245, 109);
+    transition: 0.5s;
+}
+
+.amogus1{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.amogus1:hover{
+    border: 3px solid rgb(34, 105, 236);
+    background: rgb(34, 105, 236);
+    transition: 0.5s;
+}
+
+nav .fa-solid{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: rgba(85, 255, 136, 0.836);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa-solid{
+        display: block;
+        color:#ffffff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}
+
+/*--------- about page ----------*/
+
+.subHeader{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 255, 110, 0.7),rgba(0, 13, 60, 0.7)),url(images/about.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+.subHeader h1{
+    font-size: 380%;
+    margin-top: 100px;
+}
+.about{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.txtbook{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.txtbook img{
+    width: 100%;
+}
+.txtbook h1{
+   padding-top: 0; 
+}
+.txtbook p{
+    padding: 15px 0 25px;
+}
+.txtbook1{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.txtbook1 img{
+    width: 100%;
+}
+.txtbook1 h1{
+    padding-top: 0;
+}
+.txtbook1 p{
+    padding: 15px 0 25px;
+}
+
+/*-----------study guides-----------*/
+.subHeader1{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 255, 110, 0.7),rgba(0, 13, 60, 0.7)),url(images/studyguides.webp);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+.subHeader1 h1{
+    font-size: 380%;
+    margin-top: 100px;
+}
+.studyGuides{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.studyGuides{
+    text-align: center;
+}
+.list h1{
+    padding-top: 0px;
+}
+.list p{
+    padding: 15px 0 25px;
+}
+.chart{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.chart img{
+    width: 100%;
+}
+
+/*-----------study guides1-----------*/
+.subHeader2{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 255, 110, 0.7),rgba(0, 13, 60, 0.7)),url(images/volcano-qu.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+.subHeader2 h1{
+    font-size: 380%;
+    margin-top: 100px;
+}
+.studyGuides{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.studyGuides{
+    text-align: center;
+}
+.list h1{
+    padding-top: 0px;
+}
+.list p{
+    padding: 15px 0 25px;
+}
+.chart1{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.chart1 img{
+    width: 100%;
+}

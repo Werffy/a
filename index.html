@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MSJHS AP Study Guides</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+         <nav>
+             <a href="/"><img src="images/logo2.png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="/">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                 </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()""></i>
+         </nav>
+
+         <div class="text-box">
+            <h1>Study Guides for AP Chem and AP Bio</h1>
+            <p>This website's only purpose for existing is to serve as an index of all the study guides created by myself, Siyar Pir, for the AP Biology and AP Chemistry curriculums at MSJHS. It also serves as a way for me to learn how to code because as of typing this, it takes me 30 minutes to figure out how to resize an image in HTML.</p>
+            <a href="studyguides.html" class="amogus">Click Here for AP Bio</a>
+            <a href="studyguideschem.html" class="amogus1">Click Here for AP Chem</a>
+    </section>
+    <!-----Java stuff for menu toggling thing----->
+    <script>
+
+        var navLink = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

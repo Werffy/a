@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MSJHS AP Study Guides</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="subHeader1">
+         <nav>
+             <a href="/"><img src="images/logo2.png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="/">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                 </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()""></i>
+         </nav>
+         <h1>Study Guides</h1>
+    </section>
+
+    <!-----Study Guides----->
+
+    <section class="studyGuides">
+       <div class="row">
+           <div class="list">
+               <h1>Links to the Study Guides on Google Docs</h1>
+               <p></p>
+               <a href="https://docs.google.com/document/d/1qfvuJJcR0M6b9dQVdMrxCt_At0ozVjF7XN6SccK0YFE/edit?usp=sharing" target="_blank">•<strong>UNIT 1 AP Bio Study Guide (Ch. 2.5-3)</strong> - Biochemistry</a><br><br>
+               <a href="https://docs.google.com/document/d/1ChFARB_j7F3LmqtG_GiWmN6i7xlsnzUWvaYqHRtgYm8/edit?usp=sharing" target="_blank">•<strong>UNIT 2 AP Bio Study Guide (Ch. 4-5)</strong> - Cell Structure & Function</a><br><br>
+               <a href="https://docs.google.com/document/d/1zaCM3_zr7-y95Xd_NVdDBRn6gb7YCTDew4eGQRJJFE4/edit?usp=sharing" target="_blank">•<strong>UNIT 3 AP Bio Study Guide (Ch. 6-8)</strong> - Cellular Energetics</a><br><br>
+               <a href="https://docs.google.com/document/d/1re3snV3u16lFQz1PiuNOGMewBbrFd4AxvAtoIgy2eZk/edit?usp=sharing" target="_blank">•<strong>UNIT 4 AP Bio Study Guide (Ch. 9 + 5.6 + 32.1 + 32.2)</strong> - Cell Communication and Cell Cycle</a><br><br>
+               <a href="https://docs.google.com/document/d/19AFvsImaUDXA-MVVNF1tQd6LJ8B7w7qU9LihMjLSHww/edit?usp=sharing" target="_blank">•<strong>UNIT 5 AP Bio Study Guide (Ch. 10-12)</strong> - Heredity</a><br><br>
+               <a href="https://docs.google.com/document/d/1J3oikeE27vMz56WDyutmJi80f95t8y2R2o6PxQpmLLo/edit?usp=sharing" target="_blank">•<strong>UNIT 6 AP Bio Study Guide (Ch. 13-16)</strong> - Gene Expression and Regulation</a><br><br>
+               <a href="https://docs.google.com/document/d/1wBVGc2GQNxtk9KnQNQyLhNq3trrmGj1HvsnGqp3zu9Q/edit?usp=sharing" target="_blank">•<strong><i>Viruses and Prokaryotes</i> UNIT AP Bio Study Guide (Ch. 17 + 24)</strong> - Viruses and Prokaryotes</a><br><br>
+               <a href="https://docs.google.com/document/d/1EhirN8hExNq4jyzx3Vsl8BzQ_bRckrDLpw5vJXEhrOg/edit?usp=sharing" target="_blank">•<strong>UNIT 7 AP Bio Study Guide (Ch. 19-24.1)</strong> - Evolution/Natural Selection</a><br><br>
+               <a href="https://docs.google.com/document/d/1PRRhZBPB67QXJyaIDhmPmrsERNbRDHh3XD8Vg7uO3eQ/edit?usp=sharing" target="_blank">•<strong>UNIT 8 AP Bio Study Guide (Ch. 40-43)</strong> - Ecology</a><br><br><br>
+           </div>
+       </div>
+       
+       <div class="chart">
+        <img src="images/Screenshot (1194).png">
+    </div>
+    </section>
+
+    <!-----Java stuff for menu toggling thing----->
+    <script>
+
+        var navLink = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

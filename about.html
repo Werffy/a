@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MSJHS AP Study Guides</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="subHeader">
+         <nav>
+             <a href="/"><img src="images/logo2.png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="/">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                 </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()""></i>
+         </nav>
+         <h1>About</h1>
+    </section>
+
+    <!-----About----->
+
+    <section class="about">
+
+        <div class="row">
+            <div class="txtbook">
+                <h1>Textbooks Used</h1>
+                <p>These study guides are based off of the textbooks, <i><strong>Biology in Focus: AP Edition</strong></i> for <i>AP Biology</i>, and <i><strong>Chemistry: The Central Science 13th Edition</strong></i> for <i>AP Chemistry</i>. The units/topics covered in my study guides are specific to what was covered in my class at the time I took it. I highly discourage using these study guides as your sole source of study. These are <i>purely supplemental</i> and are a good way of getting in some last minute review/overview. To do well on the tests make sure to review any classwork, packets, slideshows, and/or textbook chapters given by your teacher.</p>
+            </div>
+            <div class="txtbook">
+                <img src="images/txtbook.jpg">
+            </div>
+        </div>
+        <div class="txtbook1">
+            <img src="images/textbookchem.png">
+        </div>
+    </section>
+
+    <!-----Java stuff for menu toggling thing----->
+    <script>
+
+        var navLink = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
